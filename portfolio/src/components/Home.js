@@ -1,5 +1,4 @@
-import React, {useState, useEffect} from "react";
-import { Link } from 'react-scroll'
+import React, { useState, useEffect } from "react";
 import '../App.css';
 
 function Home() {
@@ -7,16 +6,15 @@ function Home() {
         <>
             <div className="intro-box">
                 <h1 className="title-name">SAMUEL HAN</h1>
-                <p>I AM A </p>
-                <br />
-                <br />
-                <div className="rotating-words">
-                    <span>PROGRAMMER</span>
-                    <span>AUDIO ENGINEER</span>
-                    <span>VIDEO EDITOR</span>
-                    <span>GAMER</span>
-                    <span>ESPORTS ENTHUSIAST</span>
-                    <span>HARD WORKER</span>
+                <div className="i-am">
+                    <p>I AM A </p>
+                    <div className="words">
+                        <span>PROGRAMMER</span>
+                        <span>SOUND ENGINEER</span>
+                        <span>VIDEO EDITOR</span>
+                        <span>GAMER</span>
+                        <span>HARD WORKER</span>
+                    </div>
                 </div>
             </div>
         </>

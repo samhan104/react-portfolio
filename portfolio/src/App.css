@@ -6,17 +6,19 @@
   /* left: 20; */
   background-color: #252525;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
-
-
-
 
 /* NAVBAR */
 .nav{
   background-color: #1b1b1b;
   margin: 0;
   padding: 0;
-  position: sticky;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .nav-bar-main {
   display: flex;
@@ -27,9 +29,18 @@
   padding-right: 40px;
 }
 
+#nav-bar-links{
+  display: inline;
+  text-decoration: none;
+}
+
 #nav-link {
   text-decoration: none;
   color: white;
+}
+
+#nav-link:hover{
+  cursor: pointer;
 }
 
 .nav-bar-small {
@@ -44,17 +55,26 @@
   height: 50vh;
   width: 70vw;
   margin: auto;
-  margin-top: 20vh;
+  margin-top: 25vh;
   border-radius: 25px;
   justify-content: center;
   align-items: center;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
   font-size: 2em;
   font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.i-am{
+  display: flex;
+  flex-direction: row;
 }
 
 .title-name {
   margin: 0;
+  margin-top: 1em;
   padding: 0;
   color: white;
 }
@@ -65,3 +85,123 @@ span {
   padding-left: 10px;
   animation: spin_words 6s infinite;
 }
+
+.words {
+  overflow: hidden;
+}
+
+@keyframes spin_words {
+  10% {
+    transform: translateY(18%);
+  }
+  30% {
+    transform: translateY(-84%);
+  }
+  50% {
+    transform: translateY(-183%);
+  }
+  70% {
+    transform: translateY(-282%);
+  }
+  90% {
+    transform: translateY(-381%);
+  }
+}
+
+/* ABOUT ME */
+.about-me-box{
+  display: flex;
+  box-sizing: content-box;
+  background-color: gray;
+  height: 50vh;
+  width: 70vw;
+  margin: auto;
+  margin-top: 45vh;
+  margin-bottom: 25vh;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.about-me-name {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* PROJECTS */
+.projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.row1{
+  display: inherit;
+  flex-direction: row;
+  align-items: center;
+}
+
+.programming, .audios {
+  display: flex;
+  background-color: gray;
+  height: 70vh;
+  width: 35vw;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  font-weight: 500;
+  position: relative;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.audios{
+  display: inherit;
+  justify-items: center;
+}
+
+#project-button {
+  height: 10vh;
+  margin-bottom: 15vh;
+  width: 30vh;
+  background-color: gray;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+#project-button:hover{
+  cursor: pointer;
+}
+
+#button-text{
+  font-weight: 500;
+  font-size: medium;
+}
+
+#audio-title{
+  align-self: center;
+}
+audio {
+  width: 33vw;
+}
+
+iframe {
+  width: 33vw;
+  height: 30vh;
+  justify-self: center;
+}
+
