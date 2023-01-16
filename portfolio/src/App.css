@@ -168,7 +168,7 @@ span {
 }
 
 .audios{
-  display: inherit;
+  display: grid;
   justify-items: center;
 }
 
@@ -194,14 +194,42 @@ span {
 
 #audio-title{
   align-self: center;
+  font-weight: 700;
+  font-size: larger;
 }
+
+#audio-projects {
+  display: inherit;
+  justify-items: center;
+}
+
+#audio-project-title{
+  margin: 1vh 0;
+}
+
+h5 {
+  margin: 1vh 0;
+  font-weight: 300;
+  text-align: center;
+}
+
 audio {
   width: 33vw;
+  height: 5vh;
+  padding: 1vh 0;
 }
 
 iframe {
   width: 33vw;
   height: 30vh;
   justify-self: center;
+  margin: 1vh 0;
+}
+
+#audio-description {
+  font-weight: 300;
+  font-size: medium;
+  text-align: justify;
+  padding: 0 10px;
 }
 
