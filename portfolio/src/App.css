@@ -378,3 +378,34 @@ iframe {
   color: white;
 }
 
+/* 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                             CONTACT
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.contact-box{
+  display: flex;
+  box-sizing: content-box;
+  background-color: gray;
+  height: 50vh;
+  width: 70vw;
+  margin: auto;
+  margin-top: 45vh;
+  margin-bottom: 25vh;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.contact-name {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
