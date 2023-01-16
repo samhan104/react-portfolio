@@ -9,7 +9,11 @@
   box-sizing: border-box;
 }
 
-/* NAVBAR */
+/* 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                               NAV BAR
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
 .nav{
   background-color: #1b1b1b;
   margin: 0;
@@ -47,7 +51,11 @@
   display: none;
 }
 
-/* Home */
+/* 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                               HOME
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
 .intro-box{
   display: flex;
   box-sizing: content-box;
@@ -108,7 +116,11 @@ span {
   }
 }
 
-/* ABOUT ME */
+/* 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                               ABOUT ME 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
 .about-me-box{
   display: flex;
   box-sizing: content-box;
@@ -135,7 +147,11 @@ span {
   color: white;
 }
 
-/* PROJECTS */
+/* 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                              PROJECTS
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
 .projects {
   display: flex;
   flex-direction: column;
@@ -149,7 +165,8 @@ span {
 }
 
 .programming, .audios {
-  display: flex;
+  display: grid;
+  justify-items: center;
   background-color: gray;
   height: 70vh;
   width: 35vw;
@@ -167,11 +184,6 @@ span {
   overflow: scroll;
 }
 
-.audios{
-  display: grid;
-  justify-items: center;
-}
-
 #project-button {
   height: 10vh;
   margin-bottom: 15vh;
@@ -181,6 +193,7 @@ span {
   border: 0;
   border-radius: 5px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  display: grid;
 }
 
 #project-button:hover{
@@ -190,15 +203,22 @@ span {
 #button-text{
   font-weight: 500;
   font-size: medium;
+  margin: 0;
+  align-self: center;
+  justify-self: center;
 }
 
-#audio-title{
+#google-drive {
+  text-decoration: none;
+}
+
+#audio-title, #programming-title{
   align-self: center;
   font-weight: 700;
   font-size: larger;
 }
 
-#audio-projects {
+#audio-projects, #programming-projects {
   display: inherit;
   justify-items: center;
 }
@@ -231,5 +251,130 @@ iframe {
   font-size: medium;
   text-align: justify;
   padding: 0 10px;
+}
+
+#button-1,
+#button-2,
+#button-3,
+#button-4{
+  padding: 2vh;
+}
+
+#button-title{
+  font-weight: 800;
+  color: white;
+}
+#button-title-1{
+  font-weight: 800;
+  color: #252525;
+}
+
+#programming-project-button-1, 
+#programming-project-button-2,
+#programming-project-button-3,
+#programming-project-button-4{
+  width: 33vw;
+  height: 25vh;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 0;
+  background-size: cover;
+}
+
+
+#programming-project-button-1{
+  background-image: url(../public/images/initial.png);
+}
+
+#programming-project-button-2{
+  background-image: url(../public/images/crist.png);
+}
+
+#programming-project-button-3{
+  background-image: url(../public/images/wardrobe.png);
+}
+
+#programming-project-button-4{
+  background-image: url(../public/images/wshlst.png);
+}
+
+#programming-description-1 {
+  display: none;
+  font-weight: 300;
+  font-size: medium;
+  text-align: justify;
+  padding: 0 10px;
+}
+
+#button-1:hover + #programming-description-1{
+  display: inherit;
+}
+
+#programming-description-2 {
+  display: none;
+  font-weight: 300;
+  font-size: medium;
+  text-align: justify;
+  padding: 0 10px;
+}
+
+#button-2:hover + #programming-description-2{
+  display: inherit;
+}
+
+#programming-description-3 {
+  display: none;
+  font-weight: 300;
+  font-size: medium;
+  text-align: justify;
+  padding: 0 10px;
+}
+
+#button-3:hover + #programming-description-3{
+  display: inherit;
+}
+
+#programming-description-4 {
+  display: none;
+  font-weight: 300;
+  font-size: medium;
+  text-align: justify;
+  padding: 0 10px;
+}
+
+#button-4:hover + #programming-description-4{
+  display: inherit;
+}
+
+/* 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                             RESUME
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.resume-box{
+  display: flex;
+  box-sizing: content-box;
+  background-color: gray;
+  height: 50vh;
+  width: 70vw;
+  margin: auto;
+  margin-top: 45vh;
+  margin-bottom: 25vh;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.resume-name {
+  margin: 0;
+  padding: 0;
+  color: white;
 }
 

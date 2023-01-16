@@ -7,11 +7,24 @@ function AboutMe() {
             <div className="projects" id="projects">
                 <div className="row1">
                     <div className="programming">
-                        <p>Programming</p>
+                        <p id="programming-title">Programming</p>
+                        <h5>Hover for more info <br /> Click to visit page</h5>
+                        <a href="https://github.com/samhan104/"><h5>Link to Github</h5></a>
+                        <div id="programming-projects">
+                            <a id="button-1"><button id="programming-project-button-1"><p id="button-title">Initial Portfolio</p></button></a>
+                            <p id="programming-description-1">Created with JavaScript, HTML, and CSS with a time limit of one week.</p>
+                            <a id="button-2" href="https://quiet-river-45012.herokuapp.com/" target="_blank"><button id="programming-project-button-2"><p id="button-title">Crists</p></button></a>
+                            <p id="programming-description-2">MERN CRUD full stack app that’s meant to create a list of items. Initial app was built in a week but broke. Still not at 100%, so I'll have to get back to this one</p>
+                            <a id="button-3" href="https://steady-mooncake-d1c73f.netlify.app/" target="_blank"><button id="programming-project-button-3"><p id="button-title-1">Wardrobe App</p></button></a>
+                            <p id="programming-description-3">MERN CRUD full stack app that lets people add clothing items to a database and see their wardrobe. It also cansuggest an outfit based on what’s in the wardrobe.. First project that was done in a group setting.</p>
+                            <a id="button-4" href="https://thewshlst.herokuapp.com/" target="_blank"><button id="programming-project-button-4"><p id="button-title-1">Initial Portfolio</p></button></a>
+                            <p id="programming-description-4">A wishlist app created with React and Django. Users will be able to sign up, add gifts they want, and add friends to see what they want. If they buy a gift, they can mark it as purchased. This was a group project consisting of 4 people, created and finished in the span of a week</p>
+                            <h5>More coming soon!</h5>
+                        </div>
                     </div>
-                    <button id="project-button"><p id="button-text">For all of my projects, <br /> Click here for my Google Drive</p></button>
+                    <a id="google-drive" href="https://drive.google.com/drive/folders/1S5veEtGX6SswGuJIOJpE9PKr3C-aJz9j" target="_blank"><button id="project-button"><p id="button-text">For all of my projects, <br /> Click here for my Google Drive</p></button></a>
                     <div className="audios">
-                        <p id="audio-title">Audios</p>
+                        <p id="audio-title">Audio</p>
                         <div id="audio-projects">
                             <h4 id="audio-project-title">Pgod x HyperX</h4>
                             <p id="audio-description">I was given the opportunity to mix the recorded vocals of this project. My task was to make a clear contrast between the HyperX microphone and the regular recorded audio. I also was tasked to manipulate Pgod’s voice to sound more autotuned and have Toby’s voice sound like it’s waking Pgod up from a dream. I used Logic Pro for this project</p>
