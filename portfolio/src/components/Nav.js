@@ -1,4 +1,4 @@
-import React, { useState, useReact } from 'react'
+import React, { useState} from 'react'
 import { Link } from 'react-scroll'
 import '../App.css';
 
@@ -31,6 +31,3 @@ function Nav() {
 }
 
 export default Nav
-
-// About Me, Coding, Audio, Video, Graphics, Resume, Contact
-//About Me, Projects, Resume, Contact

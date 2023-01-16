@@ -1,4 +1,4 @@
-import React, {useState, useReact} from 'react'
+import React from 'react'
 import Nav from './components/Nav'
 import Home from './components/Home'
 import AboutMe from './components/AboutMe'
