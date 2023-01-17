@@ -35,7 +35,7 @@ function AboutMe() {
                             <p id="audio-description">Be All You is currently out on podcast streaming services, including <a href="https://open.spotify.com/show/4Lmxes3wxMKaM90kuoxLEB?si=54ea2c4cdeba4b4f" rel="noreferrer" target="_blank">Spotify</a> and <a href="https://podcasts.apple.com/us/podcast/be-all-you/id1518306634" rel="noreferrer" target="_blank">Apple Music</a></p>
                             <p id="audio-description">Listen to Episode 1 below</p>
                             <audio controls>
-                                <source src="/audio/BAYS1E1.mp3" type="audio/mpeg"></source>
+                                <source src="https://media.githubusercontent.com/media/samhan104/react-portfolio/main/portfolio/public/audio/BAYS1E1.mp3" type="audio/mpeg"></source>
                             </audio>
                             <h4 id="audio-project-title">Mixes</h4>
                             <h5>HanCastillo_Project2</h5>
