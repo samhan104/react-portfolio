@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
+import ToTop from './components/ToTop'
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
     <Nav />
     <Home />
+    <ToTop />
     <AboutMe />
     <Projects />
     <Resume />

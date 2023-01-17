@@ -47,10 +47,6 @@
   cursor: pointer;
 }
 
-.nav-bar-small {
-  display: none;
-}
-
 /* 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                HOME
@@ -147,6 +143,16 @@ span {
   color: white;
 }
 
+.itisi, .red{
+  padding: 0 4em;
+  font-size: large;
+  font-weight: 500;
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
 /* 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                               PROJECTS
@@ -216,6 +222,7 @@ span {
   align-self: center;
   font-weight: 700;
   font-size: larger;
+  color: white;
 }
 
 #audio-projects, #programming-projects {
@@ -378,6 +385,28 @@ iframe {
   color: white;
 }
 
+.resume-note{
+  font-size: small;
+}
+
+.resumelink {
+  height: 20vh;
+  width: 30vw;
+  margin: 1vh;
+}
+.resumebutton{
+  height: 20vh;
+  width: 30vw;
+  border-radius: 25px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(99, 99, 99);
+}
+
+.resumebutton:hover{
+cursor: pointer;
+}
 /* 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                              CONTACT
@@ -388,7 +417,7 @@ iframe {
   display: flex;
   box-sizing: content-box;
   background-color: gray;
-  height: 50vh;
+  height: 65vh;
   width: 70vw;
   margin: auto;
   margin-top: 45vh;
@@ -408,4 +437,89 @@ iframe {
   margin: 0;
   padding: 0;
   color: white;
+}
+
+.contact-note {
+  margin: 0;
+  padding: 1vh;
+  text-align: center;
+  font-size: large;
+}
+
+.contact-form {
+  height: 60vh;
+  width: 40vw;
+  background-color: rgb(99, 99, 99);
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  margin-bottom: 6vh;
+  margin-top: 4vh;
+}
+
+form {
+  height: 40vh;
+  width: 32vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+input {
+  padding-top: 3px;
+  margin-bottom: 3.5vh;
+  border-radius: 1em;
+}
+
+#message-box{
+  height: 15vh;
+}
+
+/* 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                             To Top
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.scroll-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right:20px;
+}
+
+.scroll-container:before {
+  content: '';
+  display: block;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.scroll-container a {
+  position: sticky;
+  top: 88vh;
+  font-size: 20px;
+}
+
+#tothetop {
+  color: black;
+  z-index: 3;
+  height: 50px;
+  width: 50px;
+}
+
+#tothetopbutton:hover{
+  cursor: pointer;
+}
+
+#tothetopbutton {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  border: 0;
+  border-radius: .5em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: gray;
 }
