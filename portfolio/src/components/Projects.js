@@ -17,7 +17,7 @@ function AboutMe() {
                             <p id="programming-description-2">MERN CRUD full stack app that’s meant to create a list of items. Initial app was built in a week but broke. Still not at 100%, so I'll have to get back to this one</p>
                             <a id="button-3" href="https://steady-mooncake-d1c73f.netlify.app/" rel="noreferrer" target="_blank"><button id="programming-project-button-3"><p id="button-title-1">Wardrobe App</p></button></a>
                             <p id="programming-description-3">MERN CRUD full stack app that lets people add clothing items to a database and see their wardrobe. It also cansuggest an outfit based on what’s in the wardrobe.. First project that was done in a group setting.</p>
-                            <a id="button-4" href="https://thewshlst.herokuapp.com/" rel="noreferrer" target="_blank"><button id="programming-project-button-4"><p id="button-title-1">Initial Portfolio</p></button></a>
+                            <a id="button-4" href="https://thewshlst.herokuapp.com/" rel="noreferrer" target="_blank"><button id="programming-project-button-4"><p id="button-title-1">WSHLST</p></button></a>
                             <p id="programming-description-4">A wishlist app created with React and Django. Users will be able to sign up, add gifts they want, and add friends to see what they want. If they buy a gift, they can mark it as purchased. This was a group project consisting of 4 people, created and finished in the span of a week</p>
                             <h5>More coming soon!</h5>
                         </div>
