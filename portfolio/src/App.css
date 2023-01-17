@@ -188,6 +188,12 @@ span {
   position: relative;
   flex-direction: column;
   overflow: scroll;
+  scrollbar-width: none;
+}
+
+.programming::-webkit-scrollbar,
+.audios::-webkit-scrollbar{
+  display: none;
 }
 
 #project-button {

@@ -47,11 +47,11 @@ function AboutMe() {
                             <p id="audio-description">The following projects were done for an acquaintance that needed an Asian music mashup. All projects were mixed and completed on Logic Pro. </p>
                             <h5>Jatek Trap v2</h5>
                             <audio controls>
-                                <source src="/audio/Jatek Trap Version 2.wav" type="audio/wav"></source>
+                                <source src="https://media.githubusercontent.com/media/samhan104/react-portfolio/main/portfolio/public/audio/Jatek%20Trap%20Version%202.wav" type="audio/wav"></source>
                             </audio>
                             <h5>Jatek Rock</h5>
                             <audio controls>
-                                <source src="/audio/Jatek Rock .wav" type="audio/wav"></source>
+                                <source src="https://media.githubusercontent.com/media/samhan104/react-portfolio/main/portfolio/public/audio/Jatek%20Rock%20.wav" type="audio/wav"></source>
                             </audio>
                             <br />
                             <h5>The rest of my work will be in the Google Drive</h5>
