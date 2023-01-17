@@ -41,7 +41,7 @@ function AboutMe() {
                             <h5>HanCastillo_Project2</h5>
                             <p id="audio-description">This project was mixed by me at Drexel’s recording studios, and recorded on Pro Tools. </p>
                             <audio controls>
-                                <source src="/audio/HanCastillo_Project2.wav" type="audio/wav"></source>
+                                <source src="https://media.githubusercontent.com/media/samhan104/react-portfolio/main/portfolio/public/audio/HanCastillo_Project2.wav" type="audio/wav"></source>
                             </audio>
                             <h5>Jatek Mixes</h5>
                             <p id="audio-description">The following projects were done for an acquaintance that needed an Asian music mashup. All projects were mixed and completed on Logic Pro. </p>
