@@ -11,7 +11,7 @@ function AboutMe() {
                         <h5>Hover for more info <br /> Click to visit page</h5>
                         <a href="https://github.com/samhan104/"><h5>Link to Github</h5></a>
                         <div id="programming-projects">
-                            <a id="button-1" href="https://samuel-han.com" rel="noreferrer" ><button id="programming-project-button-1"><p id="button-title">Initial Portfolio</p></button></a>
+                            <a id="button-1" href="https://samhanfirstsite.netlify.app" rel="noreferrer" ><button id="programming-project-button-1"><p id="button-title">Initial Portfolio</p></button></a>
                             <p id="programming-description-1">Created with JavaScript, HTML, and CSS with a time limit of one week.</p>
                             <a id="button-2" href="https://quiet-river-45012.herokuapp.com/" rel="noreferrer" target="_blank"><button id="programming-project-button-2"><p id="button-title">Crists</p></button></a>
                             <p id="programming-description-2">MERN CRUD full stack app that’s meant to create a list of items. Initial app was built in a week but broke. Still not at 100%, so I'll have to get back to this one</p>

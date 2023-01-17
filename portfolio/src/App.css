@@ -55,7 +55,7 @@
 .intro-box{
   display: flex;
   box-sizing: content-box;
-  background-color: gray;
+  background-color: rgba(197, 212, 222, 0.7);
   height: 50vh;
   width: 70vw;
   margin: auto;
@@ -120,7 +120,7 @@ span {
 .about-me-box{
   display: flex;
   box-sizing: content-box;
-  background-color: gray;
+  background-color: rgba(197, 212, 222, 0.7);
   height: 50vh;
   width: 70vw;
   margin: auto;
@@ -173,7 +173,7 @@ span {
 .programming, .audios {
   display: grid;
   justify-items: center;
-  background-color: gray;
+  background-color: rgba(197, 212, 222, 0.7);
   height: 70vh;
   width: 35vw;
   margin: auto;
@@ -194,7 +194,7 @@ span {
   height: 10vh;
   margin-bottom: 15vh;
   width: 30vh;
-  background-color: gray;
+  background-color: rgba(197, 212, 222, 0.7);
   padding: 0;
   border: 0;
   border-radius: 5px;
@@ -362,7 +362,7 @@ iframe {
 .resume-box{
   display: flex;
   box-sizing: content-box;
-  background-color: gray;
+  background-color: rgba(197, 212, 222, 0.7);
   height: 50vh;
   width: 70vw;
   margin: auto;
@@ -416,7 +416,7 @@ cursor: pointer;
 .contact-box{
   display: flex;
   box-sizing: content-box;
-  background-color: gray;
+  background-color: rgba(197, 212, 222, 0.7);
   height: 65vh;
   width: 70vw;
   margin: auto;
@@ -521,5 +521,5 @@ input {
   border: 0;
   border-radius: .5em;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-  background-color: gray;
+  background-color: rgba(197, 212, 222, 0.7);
 }
