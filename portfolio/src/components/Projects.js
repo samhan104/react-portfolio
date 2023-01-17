@@ -28,7 +28,7 @@ function AboutMe() {
                         <div id="audio-projects">
                             <h4 id="audio-project-title">Pgod x HyperX</h4>
                             <p id="audio-description">I was given the opportunity to mix the recorded vocals of this project. My task was to make a clear contrast between the HyperX microphone and the regular recorded audio. I also was tasked to manipulate Pgod’s voice to sound more autotuned and have Toby’s voice sound like it’s waking Pgod up from a dream. I used Logic Pro for this project</p>
-                            <iframe src="https://www.youtube.com/watch?v=aIK5E0Oo3o4" title="DignitasHyperX">
+                            <iframe src="https://www.youtube.com/embed/aIK5E0Oo3o4" title="DignitasHyperX">
                             </iframe><br />
                             <h4 id="audio-project-title">Be All You Podcast</h4>
                             <p id="audio-description">I currently edit the Be All You Podcast by Ryan Pruitt, and have done so in the past for Season 1 as a co-op during my time at Drexel University.  I use Logic Pro to do all my edits. I was tasked with taking the recorded audio, giving feedback on how to record better, then finding sound effects and inserting them within the podcast, while making the story flow smoothly.</p>
