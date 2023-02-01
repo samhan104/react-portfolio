@@ -1,5 +1,5 @@
 import React from "react";
-import myResume from "../jan.pdf"
+import myResume from "../resume.pdf"
 import '../App.css';
 
 function Resume() {
