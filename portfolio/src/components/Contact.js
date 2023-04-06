@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css';
 
-function AboutMe() {
+function AboutMe() { {/* have this at the end of every react "page" */}
     return (
         <>
             <div className="contact-box" id="contact">
